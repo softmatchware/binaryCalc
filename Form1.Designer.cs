@@ -129,7 +129,8 @@
             bool128.Size = new Size(15, 14);
             bool128.TabIndex = 8;
             bool128.UseVisualStyleBackColor = true;
-            bool128.CheckedChanged += bool128_CheckedChanged;
+            //bool128.CheckedChanged += bool128_CheckedChanged;
+            this.bool128.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool64
             // 
@@ -139,7 +140,8 @@
             bool64.Size = new Size(15, 14);
             bool64.TabIndex = 9;
             bool64.UseVisualStyleBackColor = true;
-            bool64.CheckedChanged += bool64_CheckedChanged;
+            //bool64.CheckedChanged += bool64_CheckedChanged;
+            this.bool64.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool32
             // 
@@ -149,7 +151,8 @@
             bool32.Size = new Size(15, 14);
             bool32.TabIndex = 10;
             bool32.UseVisualStyleBackColor = true;
-            bool32.CheckedChanged += bool32_CheckedChanged;
+            //bool32.CheckedChanged += bool32_CheckedChanged;
+            this.bool32.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool16
             // 
@@ -159,7 +162,8 @@
             bool16.Size = new Size(15, 14);
             bool16.TabIndex = 11;
             bool16.UseVisualStyleBackColor = true;
-            bool16.CheckedChanged += bool16_CheckedChanged;
+            //bool16.CheckedChanged += bool16_CheckedChanged;
+            this.bool16.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool8
             // 
@@ -169,7 +173,8 @@
             bool8.Size = new Size(15, 14);
             bool8.TabIndex = 12;
             bool8.UseVisualStyleBackColor = true;
-            bool8.CheckedChanged += bool8_CheckedChanged;
+            //bool8.CheckedChanged += bool8_CheckedChanged;
+            this.bool8.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool4
             // 
@@ -179,7 +184,8 @@
             bool4.Size = new Size(15, 14);
             bool4.TabIndex = 13;
             bool4.UseVisualStyleBackColor = true;
-            bool4.CheckedChanged += bool4_CheckedChanged;
+            //bool4.CheckedChanged += bool4_CheckedChanged;
+            this.bool4.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool2
             // 
@@ -189,7 +195,8 @@
             bool2.Size = new Size(15, 14);
             bool2.TabIndex = 14;
             bool2.UseVisualStyleBackColor = true;
-            bool2.CheckedChanged += bool2_CheckedChanged;
+            //bool2.CheckedChanged += bool2_CheckedChanged;
+            this.bool2.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // bool1
             // 
@@ -199,7 +206,8 @@
             bool1.Size = new Size(15, 14);
             bool1.TabIndex = 15;
             bool1.UseVisualStyleBackColor = true;
-            bool1.CheckedChanged += bool1_CheckedChanged;
+            //bool1.CheckedChanged += bool1_CheckedChanged;
+            this.bool1.CheckedChanged += new System.EventHandler(this.bool_CheckedChanged);
             // 
             // label9
             // 
